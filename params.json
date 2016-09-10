@@ -1,0 +1,6 @@
+{
+  "name": "Cripto-sd",
+  "tagline": "Fontes criados durantes os estudos de criptografia da aula de Sistemas Distruídos",
+  "body": "# cripto-sd\r\nFontes criados durantes os estudos de criptografia da aula de Sistemas Distruídos utilizando Python\r\n\r\n# diffie-hellman.py\r\nGera as chaves de criptografia através da lógica de Diffie Hellman",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
