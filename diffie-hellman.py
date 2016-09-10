@@ -21,6 +21,6 @@ print "Chave B = %d" % kb
 
 #Caso as chaves sejam iguais a operacao ocorreu corretamente, sendo possivel que um decifre a mensagem do outro
 if ka == kb:
-	print "Chaves geradas corretamente"	  
+	print "Chaves geradas corretamente"
 else:
 	print "Chaves geradas incorretamente"
