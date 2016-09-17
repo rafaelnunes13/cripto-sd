@@ -48,6 +48,7 @@ b = random.randrange(1, chaveMax)
 #a = random.randrange(1, 5000)
 #b = random.randrange(1, 5000)
 
+print "Gerando chaves publicas"
 #Geracao das chaves consideradas "Publicas" que seriam trocadas entre as maquinas
 A = (g**a)%p
 B = (g**b)%p
@@ -67,10 +68,12 @@ else:
 
 msg = raw_input("Digite a mensagem para enviar para 'B': ")
 
-#encripta a mensagem
+#criptografa a mensagem
+print "Criptografando mensagem em A..."
 msgEnc = encrypt(str(ka), msg)
 
-#decripta a partir da mensagem encriptada
+#descriptografa a partir da mensagem encriptada
+print "Descriptografando mensagem em B..."
 msgDec = decrypt(str(kb), msgEnc)
 
 print "Mensagem de A decifrada em B:"
