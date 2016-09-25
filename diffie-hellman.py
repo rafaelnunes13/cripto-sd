@@ -50,12 +50,12 @@ b = random.randrange(1, chaveMax)
 
 print "Gerando chaves publicas"
 #Geracao das chaves consideradas "Publicas" que seriam trocadas entre as maquinas
-A = (g**a)%p
-B = (g**b)%p
+A = pow(g, a, p)
+B = pow(g, b, p)
 
 #Utilizando a chave "Privada" gerada aleatoriamente um calcula a chave do outro
-ka = (B**a)%p
-kb = (A**b)%p
+ka = pow(B, a, p)
+kb = pow(A, b, p)
 
 #print "Chave A = %d" % ka
 #print "Chave B = %d" % kb
